@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AKAI Frontend Task</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <meta
+      name="viewport"
+      charset="utf-8"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+  </head>
+  <body>
+    <section id="task-frontend">
+      <h2 class="basic-title">Formularz rekrutacyjny</h2>
+      <form method="POST">
+        <input
+          class="user-data"
+          type="text"
+          id="first-name"
+          placeholder="Imię"
+        />
+        <input
+          class="user-data"
+          type="text"
+          id="last-name"
+          placeholder="Nazwisko"
+        />
+        <input class="user-data" type="email" id="email" placeholder="email" />
+
+        <span style="color: #445b7e">Sekcje, które cię interesują</span>
+
+        <div class="checkbox">
+          <div class="left">
+            <input
+              type="checkbox"
+              id="frontend-checkbox"
+              name="section"
+              value="frontend"
+            />
+            <label for="frontend-checkbox">Frontend</label><br />
+            <input
+              type="checkbox"
+              id="backend-checkbox"
+              name="section"
+              value="frontend"
+            />
+            <label for="backend-checkbox">Backend</label>
+          </div>
+          <div class="right">
+            <input
+              type="checkbox"
+              id="mobile-checkbox"
+              name="section"
+              value="frontend"
+            />
+            <label for="mobile-checkbox">Mobile</label><br />
+            <input
+              type="checkbox"
+              id="graphics-checkbox"
+              name="section"
+              value="frontend"
+            />
+            <label for="graphics-checkbox">Grafika</label>
+          </div>
+        </div>
+
+        <input id="btn" type="submit" value="Wyślij" />
+      </form>
+    </section>
+    <script type="text/javascript" src="js/validation.js"></script>
+  </body>
+</html>

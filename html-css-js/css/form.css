@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+#task-frontend {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25rem;
+  padding: 3rem;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 1rem;
+}
+
+#task-frontend .basic-title {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.user-data {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.checkbox {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.left {
+  color: #fff;
+  width: 50%;
+}
+.right {
+  color: #fff;
+  width: 50%;
+}
+
+#task-frontend .form-line {
+  border: 1px solid blue;
+}
+
+#task-frontend form > label {
+  text-transform: uppercase;
+  margin: 10px auto 0 auto;
+}
+
+#task-frontend span {
+  display: block;
+}
+
+#task-frontend input[type='checkbox'] {
+  border: 1px solid red;
+  text-transform: none;
+}
+
+#task-frontend input[type='submit'] {
+  border-radius: 2rem;
+  font-weight: bold;
+  background: linear-gradient(#141e30, #243b55);
+  color: white;
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
